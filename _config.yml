@@ -149,7 +149,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://spborder.github.io/fusion-welcome-page"
+baseurl: "fusion-welcome-page"
 
 # ------------ The following options are not recommended to be modified ------------------
 
