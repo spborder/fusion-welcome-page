@@ -39,9 +39,10 @@ vis.start()
 Running the following code in a Jupyter Notebook will produce the following output:
 
 <div align="center">
-    <img src="jupyter-screenshot.png">
+    <img src="jupyter-screenshot.png" alt='screenshot of jupyter notebook'>
 </div>
 
 From this point, there are a number of different interactive, multi-step analyses which can be done. These include, manual annotations of image regions containing structures/characteristics of interest, filtering of structures by property or by spatial queries followed by downloading annotations, making image annotations and generating labeled masks which can be incorporated into deep learning training workflows, etc.
+
 
 
