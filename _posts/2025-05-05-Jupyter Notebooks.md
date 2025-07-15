@@ -16,21 +16,21 @@ In addition to web-deployment in a browser window, *FUSION* can also be added in
 ```python
 
 from fusion_tools.visualization import Visualization
-form fusion_tools.components import SlideMap, OverlayOptions
+from fusion_tools.components import SlideMap, OverlayOptions
 
 
 vis = Visualization(
-	local_slides = ["list","of","local","slide","paths"],
-	local_annotations = ["list","of","local","slide","annotations"],
-	components = [
-			[
-				SlideMap(),
-				OverlayOptions()
-			]
-		],
-	app_options={
-		'jupyter': True
-	}
+  local_slides = ["list","of","local","slide","paths"],
+  local_annotations = ["list","of","local","slide","annotations"],
+  components = [
+    [ 
+      SlideMap(),
+      OverlayOptions()
+    ]
+  ],
+  app_options={
+    'jupyter': True
+  }
 )
 vis.start()
 
